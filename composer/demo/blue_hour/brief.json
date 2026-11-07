@@ -1,0 +1,63 @@
+{
+  "title": "灰蓝时刻",
+  "title_en": "THE BLUE HOUR",
+  "artist": "NEON TIDE",
+  "logline": "不是要回到那一天，而是承认那天已经变成了光。",
+  "style": "记忆小品 / Ambient Neoclassical",
+  "key": "Db",
+  "mode": "major",
+  "bpm": 60,
+  "bpm_range": [57, 63],
+  "meter": 4,
+  "bars": 56,
+  "tail": 7.0,
+  "sample_rate": 48000,
+  "seed": 20261108,
+  "palette": ["MUTED VIOLA", "FELT PIANO", "MUSIC BOX", "STRINGS", "HARMONIUM", "ROOM"],
+  "avoid": [
+    "不要鼓组",
+    "不要爆发的强音",
+    "不要刺耳金属余响",
+    "不要把怀旧等同于噪点和低通",
+    "不要满混响"
+  ],
+  "motif": [3, 6, 2, 4, 3],
+  "sections": [
+    {
+      "name": "Intro", "bars": 8,
+      "valence": 0.30, "arousal": 0.15, "tension": 0.25, "distance": 0.30,
+      "mood": "房间声与钢琴碎片，只给动机前三个音",
+      "instruments": ["room", "piano"]
+    },
+    {
+      "name": "A1", "bars": 16,
+      "valence": 0.40, "arousal": 0.28, "tension": 0.32, "distance": 0.40,
+      "mood": "主题第一次完整出现，回忆开始变暖",
+      "instruments": ["viola", "piano", "music box"]
+    },
+    {
+      "name": "B", "bars": 12,
+      "valence": 0.50, "arousal": 0.40, "tension": 0.42, "distance": 0.55,
+      "mood": "弦乐与簧风琴进入，空间打开",
+      "instruments": ["viola", "strings", "harmonium", "music box"]
+    },
+    {
+      "name": "Climax", "bars": 8,
+      "valence": 0.45, "arousal": 0.55, "tension": 0.50, "distance": 0.60,
+      "mood": "音区最高，但不爆发，仍无鼓组",
+      "instruments": ["viola", "strings", "harmonium", "piano"]
+    },
+    {
+      "name": "A2", "bars": 8,
+      "valence": 0.32, "arousal": 0.25, "tension": 0.45, "distance": 0.45,
+      "mood": "撤掉弦乐与簧风琴，主题回归",
+      "instruments": ["viola", "piano", "music box"]
+    },
+    {
+      "name": "Coda", "bars": 4,
+      "valence": 0.25, "arousal": 0.12, "tension": 0.55, "distance": 0.55,
+      "mood": "只剩动机碎片，未完全解决",
+      "instruments": ["piano", "music box"]
+    }
+  ]
+}

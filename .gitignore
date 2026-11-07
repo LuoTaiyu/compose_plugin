@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 渲染产物：母带与预览体积大，不入库（示例封面/PDF/MIDI 保留）
+output/*.wav
+output/preview_p*.png
+
+# OS
+.DS_Store
+Thumbs.db
